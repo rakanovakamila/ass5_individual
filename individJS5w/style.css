@@ -1,0 +1,15 @@
+#card {
+    width: 278px;
+    padding: 20px;
+    background-color: rgb(194, 206, 218);
+    border: 2px solid rgb(151, 154, 173);
+    border-radius: 5px;
+    text-align: center;
+}
+#card.highlight {
+    background-color:pink;
+    border-color:rgb(255, 171, 185);
+}
+#card:focus {
+    outline: 3px solid rgb(114, 0, 46);
+}
